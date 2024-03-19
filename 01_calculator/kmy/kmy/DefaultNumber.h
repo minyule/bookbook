@@ -2,15 +2,20 @@
 class DefaultNumber
 {
 public:
-	DefaultNumber(long initValue = 0);
+	DefaultNumber(float initValue = 0);
 	~DefaultNumber();
 
 	void printValue() const;
-	long getValue() const;
-	void setValue(long newValue);
+	float getValue() const;
+	void setValue(float newValue);
+
+	float operator+(DefaultNumber& otherNumber) const;
+	float operator-(DefaultNumber& otherNumber) const;
+	float operator*(DefaultNumber& otherNumber) const;
+	float operator/(DefaultNumber& otherNumber) const;
 
 private:
-	long value;
+	float value;
 
 };
 
