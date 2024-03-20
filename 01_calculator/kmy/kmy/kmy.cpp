@@ -1,5 +1,5 @@
 ﻿// 연산자 오버라이딩 사용 예정.
-
+//test
 #include <iostream>
 #include "DefaultNumber.h"
 
