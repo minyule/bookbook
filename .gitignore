@@ -19,9 +19,9 @@
 *.lib
 
 # Executables
-*.exe
-*.out
-*.app
+# *.exe
+# *.out
+# *.app
 
 # =========================
 # Operating System Files
@@ -92,6 +92,11 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+
+.vs/
+v16/
+v17/
+x64/
 
 # Roslyn cache directories
 *.ide/
