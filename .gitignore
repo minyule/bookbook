@@ -93,6 +93,11 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+.vs/
+v16/
+v17/
+x64/
+
 # Roslyn cache directories
 *.ide/
 
